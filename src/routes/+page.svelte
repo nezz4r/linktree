@@ -5,7 +5,20 @@
   export let data;
 </script>
 
-<section class="flex justify-center items-center w-full pt-32 flex-col gap-4 max-w-[540px] px-4 absolute left-[50%] -translate-x-[50%]">
+<svelte:head>
+  <title>
+    {data.name}
+  </title>
+  <meta name="description" content={data.description} />
+  <meta property="og:title" content={data.name} />
+  <meta property="og:type" content="website" />
+  <meta property="og:description" content={data.description} />
+  <meta property="og:image" content="{data.profilePicture}" />
+  <meta property="og:url" content="https://raulvictor.dev" />
+  <meta name="twitter:card" content="summary_large_image" />
+</svelte:head>
+
+<section class="flex justify-center items-center w-full pt-16 flex-col gap-4 max-w-[540px] px-4 absolute left-[50%] -translate-x-[50%]">
   <img src={data.profilePicture} alt="Raul Victor de Queiroz" class="rounded-full w-32 h-32" />
   <div class="flex justify-center items-center gap-4 w-full">
     {#each data.socialLinks as socialLink}
