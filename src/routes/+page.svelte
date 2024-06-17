@@ -18,7 +18,7 @@
   <meta name="twitter:card" content="summary_large_image" />
 </svelte:head>
 
-<section class="flex justify-center items-center w-full pt-16 flex-col gap-4 max-w-[540px] px-4 absolute left-[50%] -translate-x-[50%]">
+<section class="flex justify-center items-center w-full py-16 flex-col gap-4 max-w-[540px] px-4">
   <img src={data.profilePicture} alt="Raul Victor de Queiroz" class="rounded-full w-32 h-32" />
   <div class="flex justify-center items-center gap-4 w-full">
     {#each data.socialLinks as socialLink}
@@ -33,16 +33,3 @@
     {/each}
   </div>
 </section>
-
-<style>
-  :global(body){
-    min-height: 100vh;
-    background: hsla(231, 76%, 46%, 1);
-    background: linear-gradient(135deg, hsla(231, 76%, 46%, 1) 0%, hsla(295, 100%, 52%, 1) 100%);
-    background: -moz-linear-gradient(135deg, hsla(231, 76%, 46%, 1) 0%, hsla(295, 100%, 52%, 1) 100%);
-    background: -webkit-linear-gradient(135deg, hsla(231, 76%, 46%, 1) 0%, hsla(295, 100%, 52%, 1) 100%);
-    backdrop-filter: brightness(0.5);
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-</style>

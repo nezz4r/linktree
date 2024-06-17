@@ -1,3 +1,16 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: hsla(231, 76%, 46%, 1);
+  background: linear-gradient(135deg, hsla(231, 76%, 46%, 1) 0%, hsla(295, 100%, 52%, 1) 100%);
+  background: -moz-linear-gradient(135deg, hsla(231, 76%, 46%, 1) 0%, hsla(295, 100%, 52%, 1) 100%);
+  background: -webkit-linear-gradient(135deg, hsla(231, 76%, 46%, 1) 0%, hsla(295, 100%, 52%, 1) 100%);
+  backdrop-filter: brightness(0.5);
+  background-repeat: no-repeat;
+}
