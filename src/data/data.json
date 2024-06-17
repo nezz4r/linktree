@@ -1,16 +1,58 @@
 {
   "name": "Raul Victor Aquino de Queiroz",
   "profilePicture": "https://avatars.githubusercontent.com/u/37417557?v=4",
-  "description": "Front-end software engineer, passionate about web technologies and open-source. I'm always looking for new challenges and opportunities to learn and grow.",
-  "socialLinks": {
-    "github": "https://github.com/nezz4r",
-    "linkedin": "https://www.linkedin.com/in/raulvqueiroz/",
-    "email": "mailto:raul@raulvictor.dev"
-  },
+  "description": "Front-end software engineer, passionate about web technologies and software architecture. I'm always looking for new challenges and opportunities to learn, grow, and help others along the way.",
+  "socialLinks": [    
+    {
+      "title": "LinkedIn",
+      "href": "https://www.linkedin.com/in/rvqueiroz/?locale=en_US",
+      "icon": "https://simpleicons.org/icons/linkedin.svg"
+    },
+    {
+      "title": "GitHub",
+      "href": "https://github.com/nezz4r",
+      "icon": "https://simpleicons.org/icons/github.svg"
+    },
+    {
+      "title": "Email",
+      "href": "mailto:raul@raulvictor.dev",
+      "icon": "https://simpleicons.org/icons/gmail.svg"
+    },
+    {
+      "title": "WhatsApp",
+      "href": "https://wa.me/5511965750292",
+      "icon": "https://simpleicons.org/icons/whatsapp.svg"
+    }
+  ],
   "links": [
     {
-      "title": "Portfolio",
-      "url": "https://raulvictor.dev"
+      "title": "Connect with me on LinkedIn",
+      "href": "https://www.linkedin.com/in/rvqueiroz/?locale=en_US",
+      "icon": "https://simpleicons.org/icons/linkedin.svg"
+    },
+    {
+      "title": "Check out my GitHub",
+      "href": "https://github.com/nezz4r",
+      "icon": "https://simpleicons.org/icons/github.svg"
+    },
+    {
+      "title": "Send me an email",
+      "href": "mailto:raul@raulvictor.dev",
+      "icon": "https://simpleicons.org/icons/gmail.svg"
+    },
+    {
+      "title": "Chat with me on WhatsApp",
+      "href": "https://wa.me/5511965750292",
+      "icon": "https://simpleicons.org/icons/whatsapp.svg"
+    },
+    {
+      "title": "Portfolio (WIP)",
+      "href": "https://raulvictor.dev"
+    },
+    {
+      "title": "What I like to do in my free time",
+      "href": "https://www.instagram.com/raulvictor_aq/",
+      "icon": "https://simpleicons.org/icons/instagram.svg"
     }
   ]
 }
