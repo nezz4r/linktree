@@ -26,7 +26,7 @@
     {/each}
   </div>
   <h1 class='text-2xl text-white text-center'>{data.name}</h1>
-  <h2 class='text-md text-gray-300 text-center'>{data.description}</h2>
+  <h2 class='text-md text-gray-100 text-center'>{data.description}</h2>
   <div class="flex flex-col justify-center items-center gap-4 w-full pt-8">
     {#each data.links as link}
       <Link data={link} />
